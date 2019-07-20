@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>微医</title>
+		<meta name="viewport" content="width=375,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style2.css"/>
+	</head>
+	<body>
+		<!--
+			0/meta viewport
+			1/先写HTML结构,再写样式
+		-->
+		<!--
+			头部结构的快捷:
+			.header>(.search>(.icon+input))+.qiandao
+		-->
+		
+		<div class="header">
+			<a class="search">
+				<div class="icon"></div>
+				<div class="text">搜索医院，医生，科室，疾病，药品</div>
+			</a>
+			<div class="qiandao">
+				<div class="coin"></div>
+				<div class="coinText">签到</div>
+			</div>
+		</div>
+		<!--
+			图标列表的快捷方式:div.iconlist>(.iconItem>(.icon.icon$+h3+p))*3
+		-->
+		<div class="iconlist">
+			<div class="iconItem">
+				<div class="icon icon1"></div>
+				<h3>去挂号</h3>
+				<p>全国2894家医院</p>
+			</div>
+			<div class="iconItem">
+				<div class="icon icon2"></div>
+				<h3>湾区医生</h3>
+				<p>湾区2894家医生</p>
+			</div>
+			<div class="iconItem">
+				<div class="icon icon3"></div>
+				<h3>湾区医院</h3>
+				<p>湾区2894家医院</p>
+			</div>
+		</div>
+		<!--
+			快捷代码.banner>img*2
+		-->
+		<div class="banner">
+			<div class="bannerTop">
+				<img class="bg" src="img/pic1.png" alt="" />
+				<img class="circle" src="img/pic2.png" alt="" />
+			</div>
+			<div class="bannerList">
+				<!--快捷代码:(.bannerItem>((.top>(.icon+.Text+.tag))+.bottom))*4-->
+				<div class="bannerItem">
+					<div class="top">
+						<div class="icon icon1"></div>
+						<div class="Text">急速问诊</div>
+						<div class="tag"></div>
+					</div>
+					<div class="bottom borderOrange">三甲专家/3分钟接诊/19元</div>
+				</div>
+				<div class="bannerItem">
+					<div class="top">
+						<div class="icon icon2"></div>
+						<div class="Text">专家问诊</div>
+						<div class="tagKuai"></div>
+					</div>
+					<div class="bottom">自选三甲专家1对1咨询</div>
+				</div>
+				<div class="bannerItem">
+					<div class="top">
+						<div class="icon icon3"></div>
+						<div class="Text">一病多问</div>
+						<div class="tagDuo"></div>
+					</div>
+					<div class="bottom">多位专家，把关病情</div>
+				</div>
+				<div class="bannerItem">
+					<div class="top">
+						<div class="icon icon4"></div>
+						<div class="Text">健康商城</div>
+						<div class="tag"></div>
+					</div>
+					<div class="bottom">全方位健康产品一站购</div>
+				</div>
+			</div>
+			
+			<div class="tesefuwu">
+				<div class="header">
+					<span class="title">特色服务</span>
+					<span class="more">全部科室 ></span>
+				</div>
+				<div class="tsiconlist">
+					<div class="tsicons">
+						<div class="icons icons1"></div>
+						<p class="title">三甲体检</p class="title">
+						<p>医生2w+</p>
+					</div>
+					<div class="tsicons">
+						<div class="icons icons2"></div>
+						<p class="title">品质医美</p class="title">
+						<p>做更美的自己</p>
+					</div>
+					<div class="tsicons">
+						<div class="icons icons3"></div>
+						<p class="title">不孕不育</p class="title">
+						<p>医生2w+</p>
+					</div>
+					<div class="tsicons">
+						<div class="icons icons4"></div>
+						<p class="title">消化肝病</p class="title">
+						<p>肝移植救助</p>
+					</div>
+					<div class="tsicons">
+						<div class="icons icons5"></div>
+						<p class="title">病友群</p class="title">
+						<p>一起共抗疾病</p>
+					</div>
+					<div class="tsicons">
+						<div class="icons icons6"></div>
+						<p class="title">大病筹款</p class="title">
+						<p>缺钱找大家帮</p>
+					</div>
+					<div class="tsicons">
+						<div class="icons icons7"></div>
+						<p class="title">报告解读</p class="title">
+						<p>体检异常咨询</p>
+					</div>
+					<div class="tsicons">
+						<div class="icons icons8"></div>
+						<p class="title">海外就医</p class="title">
+						<p>机构30+</p>
+					</div>
+					<div class="tsicons">
+						<div class="icons icons9"></div>
+						<p class="title">消化内科</p class="title">
+						<p>医生1w+</p>
+					</div>
+					<div class="tsicons">
+						<div class="icons icons10"></div>
+						<p class="title">普外科</p class="title">
+						<p>医生2w+</p>
+					</div>
+					<div class="tsicons">
+						<div class="icons icons11"></div>
+						<p class="title">皮肤科</p class="title">
+						<p>医生9k+</p>
+					</div>
+					<div class="tsicons">
+						<div class="icons icons12"></div>
+						<p class="title">呼吸内科</p class="title">
+						<p>医生1w+</p>
+					</div>					
+				</div>
+				<div class="foot">
+					<img src="img/wyqk_img.png"/>
+				</div>
+				<!--阴影-->
+			</div>
+
+		</div>
+								
+		<div class="both">
+			<img src="img/wyjkx.png" />
+			<img src="img/qgyltlm.png" />
+		</div>
+		
+		<div class="lunbo">
+			<img src="img/lunbo1.png"/>
+		</div>
+		
+		<div class="hshop">
+			<div class="header">
+				<span class="title">健康商城</span>
+				<span class="more">更多 ></span>
+			</div>
+			<div class="top">
+				<div class="hsimg hs1"></div>
+				<div class="hsimg hs2"></div>
+			</div>
+			<div class="bottom">
+				<div class="hs_img hs3"></div>
+				<div class="hs_img hs4"></div>
+				<div class="hs_img hs5"></div>
+				<div class="hs_img hs6"></div>
+			</div>
+		</div>
+	
+		<div class="tab">
+			<ul class="tabList">
+				<li class="on text">推荐</li>
+				<li class="text">腹泻</li>
+				<li class="text">上呼吸道感染</li>
+				<li class="text">哮喘</li>
+				<li class="text">高血压</li>
+				<li class="text">胃炎</li>
+			</ul>
+		</div>
+	
+		<div class="btn1">
+			<div class="left">
+				<p>吃完9吨食物，一生就终结了？</p>
+				<p>有一个说法在网上热传：人一生只能吃9吨食物，谁先吃完谁先走这种说法真是惊悚啊，人的寿命真的跟吃多少东西有关吗微医告诉你，真相到底是什么少吃一点能延长寿命其实，“人一生只能吃9吨食物”这个说法太过鲁莽、武断，因为它完全无视了个体差异比如：高个子和矮个子、劳动者和白领、男性和女性，他们的饭量区别可是很大的！如果换一种说法：“每顿饭少吃一点能延长寿命”，那还可信一些按世界人均寿命70左右计算，9吨食物的话，1个人每天只能吃351g食物，大约7两，这对于饭量大的人来说，那太不现实了！但如果只是适量减少（7分饱），那就另当别论了</p>
+			</div>
+			<div class="right"></div>
+		</div>
+		<div class="btn2">
+			<div class="left">
+				<p> 高血压分级管理</p>
+				<p>高血压是现代常见的慢性疾病之一，很多高血压患者需要终身治疗，如果想要将高血压控制好，患者一定要学会管理自己的血压一起来了解一下高血压分级管理吧高血压分级管理1单纯的原发性高血压患者（年龄65岁）这类高血压患者没有合并糖尿病、冠心病、脑中风、肾脏功能不全，年龄80岁，则建议应该将血压控制在低于140/90mmHg，最好达到120/80mmHg以下2有合并症的原发性高血压患者如果高血压患者同时还有糖尿病或肾脏功能不全，则血压应控制在130/80mmHg以下</p>
+			</div>
+			<div class="right"></div>
+		</div>
+		
+
+		
+		<!--<style type="text/css">
+			.test{
+				width: 350px;
+				height: 100px;
+				background: #efefef;
+				margin: 20px auto;
+				overflow: scroll;
+			}
+			
+			.child{
+				width: 500px;
+				height: 50px;
+				background: greenyellow;
+			}
+		</style>
+		<div class="test">
+			<div class="child">
+				hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+			</div>
+		</div>-->
+		
+		<!--.parent>.child.child$*3>(.img$*2+p*3)-->		
+		<div class="parent">
+			<div class="child ">
+				<div class="child1">
+					<img src="img/bf.png"/>
+					<div class="top"><p>专家视频</p></div>
+					<div class="title">主讲人：刘燕荣</div>
+					<div class="time">23:12</div>	
+				</div>
+				<div class="child2">
+					<img src="img/bf.png"/>
+					<div class="top"><p>专家视频</p></div>
+					<div class="title">主讲人：刘燕荣</div>
+					<div class="time">23:12</div>	
+				</div>
+				<div class="child3">
+					<p>查看更多 ></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="comment1">
+			<div class="content">
+				<span>￥98</span>
+				<span>糖尿病、高血压十几年。2016年查出甲状腺乳头状癌转移淋巴。手术两侧全切，但一侧淋巴转移病灶手术风险大没去掉干净（图一👇）。手术后医生建议碘131治疗，在上海复旦大学附属中山医院做过三次碘131治疗了！ 图二三👇是这两年早晨空腹优甲乐2片半，每两个月的检查结果。 图四👇是做第三次碘131治疗时候医生怀疑肺转移做</span>
+			</div>
+			<div class="foot">
+				<div class="left">
+					<div class="tx">
+						<img src="img/tx.png"/>
+						<img src="img/tx.png"/>
+						<img src="img/tx.png"/>
+					</div>
+					
+				</div>
+				<div class="right">阅读2345</div>
+			</div>
+		</div>
+		<div class="comment2">
+			<div class="content">
+				<span>￥68</span>
+				<span>65岁女性。嗯。有糖尿病，高血压。求最佳治疗方案。</span>
+			</div>
+			<div class="foot">
+				<div class="left">
+					<div class="tx">
+						<img src="img/tx.png"/>
+						<img src="img/tx.png"/>
+						<img src="img/tx.png"/>
+					</div>
+				</div>
+				<div class="right">阅读2345</div>
+			</div>
+		</div>
+	
+		<div class="footer">
+			<div class="itemIcon">
+				<div class="icon"></div>
+				<div class="text">微医</div>
+			</div>
+			<div class="itemIcon">
+				<div class="icon"></div>
+				<div class="text">健康商城</div>
+			</div>
+			<div class="itemIcon">
+				<div class="icon"></div>
+				<div class="text">健康号</div>
+			</div>
+			<div class="itemIcon">
+				<div class="icon"></div>
+				<div class="text">发现</div>
+			</div>
+			<div class="itemIcon">
+				<div class="icon"></div>
+				<div class="text">我</div>
+			</div>
+		</div>
+	</body>
+</html>
